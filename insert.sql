@@ -12,7 +12,7 @@ VALUES
 ('Deadmau5'),
 ('Skrillex'),
 ('Daft Punk'),
-('Inagine Dragons');
+('Imagine Dragons');
 
 INSERT INTO GenreArtist(genre_id, artist_id)
 VALUES 
