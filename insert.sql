@@ -55,7 +55,14 @@ VALUES
 ('Lose Yourself', 326, 1),
 ('Starboy', 230, 2),
 ('My Name Is', 258, 5),
-('My Fault', 242, 5);
+('My Fault', 242, 5),
+
+('Myself', 335, 5),
+('Oh my god', 543, 5),
+('My', 432, 5),
+('Premyne', 213, 5),
+('Own my', 123, 5),
+('Be my', 234, 5);
 
 INSERT INTO Collections(name, release_year)
 VALUES 

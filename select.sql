@@ -13,7 +13,8 @@ SELECT name FROM Artists
 WHERE name NOT LIKE '% %';
 
 SELECT name FROM Tracks
-WHERE LOWER(name) LIKE '%my%' OR LOWER(name) LIKE '%мой%';
+WHERE name ILIKE 'my %' OR name ILIKE '% my' OR name ILIKE '% my %' OR name ILIKE 'my' 
+OR name ILIKE 'мой %' OR name ILIKE '% мой' OR name ILIKE '% мой %' OR name ILIKE 'мой';
 
 -- Задание 3
 
